@@ -1,0 +1,12 @@
+body {
+    font-family: 'Andika New Basic', sans-serif;
+    background-color: whitesmoke;
+}
+
+.text-restaurant {
+    color: #ff312e;
+}
+
+.text-restaurant:hover {
+    opacity: 0.5;
+}
