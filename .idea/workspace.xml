@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3688620f-433e-4ced-91f8-1c890a43db0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/restaruant_signup_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/restaruant_signup_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/restaurant_login_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/restaurant_login_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/user_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/user_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant_signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant_signup.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mBL7SaaP3Gc1f5Y60zaznHNRC6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3688620f-433e-4ced-91f8-1c890a43db0b" name="Default Changelist" comment="" />
+      <created>1608961872285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608961872285</updated>
+      <workItem from="1608961873715" duration="1459000" />
+      <workItem from="1608965606141" duration="6925000" />
+      <workItem from="1608985373190" duration="13439000" />
+      <workItem from="1609041782319" duration="3200000" />
+      <workItem from="1609045358679" duration="10011000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1609044715395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609044715395" />
+    <state x="807" y="426" key="VCS.ChangelistChooser" timestamp="1608966565311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="426" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608966565311" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609003201137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609003201137" />
+  </component>
+</project>

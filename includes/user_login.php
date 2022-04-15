@@ -17,5 +17,6 @@
         header("location: ../product.php");
     }
     else {
+        echo "<script>alert('Wrong credentials')</script>";
         header("location: ../login.php");
     }

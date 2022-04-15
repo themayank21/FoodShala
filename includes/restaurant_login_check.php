@@ -11,11 +11,12 @@
     $num_rows = mysqli_num_rows($query);
 
     if($num_rows == 1){
-        $_SESSION['id'] = $query_array['restaurant_id'];
-        $_SESSION['user'] = $query_array[1];
-        $_SESSION['email'] = $user;
+        $_SESSION['rest_id'] = $query_array['restaurant_id'];
+        $_SESSION['rest_user'] = $query_array[1];
+        $_SESSION['rest_email'] = $user;
         header("location: ../product_add.php");
     }
     else {
+        echo "<script>alert('Wrong credentials')</script>";
         header("location: ../restaurant_login.php");
     }

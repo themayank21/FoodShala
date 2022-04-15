@@ -42,7 +42,9 @@
             </div>
             <div class="form-group mt-3">
                 <input type="password" name="restaurantSignPassword" id="restaurantSignPassword" class="form-style"
-                       placeholder="Password" autocomplete="none" required>
+                       placeholder="Password" autocomplete="none" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                       title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                       required>
                 <i class="input-icon uis uis-lock"></i>
             </div>
 

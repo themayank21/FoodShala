@@ -3,8 +3,14 @@
     if (!isset($_SESSION['email'])) {
         header('location: login.php');
     }
+    if(isset($_SESSION['rest_email'])){
+        header("location: product_add.php");
+    }
+
     $query = mysqli_query($con, "SELECT * FROM restaurant_table");
     $rows = mysqli_num_rows($query);
+    $menu_query = mysqli_query($con, "SELECT * FROM food_table");
+    $menu = mysqli_fetch_array($menu_query);
 ?>
 
 
@@ -47,9 +53,9 @@
             <h2>Order food Online:</h2>
             <div class="row">
                 <div class="col-lg-2 col-md-4 col-sm-12">
-                    <form class="form-check py-3" action="">
-                        <label for="vegetarian" class="form-check-label">Veg</label><input class="form-check-input" type="radio" name="vegetarian" id="vegetarian"><br>
-                        <label for="nonVegetarian" class="form-check-label">Non-veg</label><input class="form-check-input" type="radio" name="vegetarian" id="nonVegetarian">
+                    <form class="form-check py-3" action="<?php echo $_SERVER["PHP_SELF"];?>" method="get">
+                        <input class="form-check-input" type="checkbox" name="vegetarian" id="vegetarian">Vegetarian Restaurant <br>
+
                     </form>
                     <hr>
                     <form class="form-group py-3">
@@ -62,7 +68,8 @@
                 </div>
                 <div class="col-lg-10 col-md-6 col-sm-12" >
                     <div class="row">
-                        <?php for($var=0; $var<$rows; $var++) {
+                        <?php
+                        for($var=0; $var<$rows; $var++) {
                             $query_rest = mysqli_query($con, "SELECT * FROM restaurant_table where restaurant_id = 1+'$var'");
                             $values = mysqli_fetch_array($query_rest);
                         ?>
@@ -94,8 +101,9 @@
                                     <!--Card bottom-->
                                     <div class="row">
                                         <div class="col-5 mx-auto">
-                                            <a href="404.php" type="button" class="btn btn-outline-light mb-3" >Check menu</a>
+                                            <a href="menu.php?menu_id=<?php echo ($var+1) ?>" type="button" class="btn btn-outline-light mb-3">Check menu</a>
                                         </div>
+
                                         <div class=" offset-2 col-5 mx-auto">
                                             <a href="cart.php" type="button" class="btn btn-outline-success mb-3">Order Special</a>
                                         </div>
@@ -112,10 +120,14 @@
     </main>
 
 
+
+
+
     <!--footer part-->
     <?php
         include "./includes/footer.php";
     ?>
+
 
     <!--Jquery CDN-->
     <script src="js/Jquery/jquery-3.5.1.min.js"></script>

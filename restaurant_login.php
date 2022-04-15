@@ -1,3 +1,13 @@
+<?php
+    include "includes/common.php";
+    if (isset($_SESSION['rest_email'])) {
+        header('location: product_add.php');
+    }
+    if(isset($_SESSION['email'])) {
+        header("location: product.php");
+    }
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -48,9 +58,11 @@
 
 
     <!--Footer section-->
-    <?php
-        include "./includes/footer.php";
-    ?>
+    <div class="fixed-bottom">
+        <?php
+            include "./includes/footer.php";
+        ?>
+    </div>
 
 
     <script src="js/main.js"></script>
